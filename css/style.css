@@ -1,3 +1,19 @@
-h2{
-    color: blue;
+table
+{
+    font-size: 30px;
+    color: #2968b6;
+
+    border: 1px solid yellow;
+    text-align: center;
+}
+th
+{
+    font-weight: bolder;   
+    color: red; 
+}
+.ititle
+{
+    font-size: 50px;    
+    font-weight: bolder;
+    color: #2968b6;
 }

@@ -1,51 +1,96 @@
-const data = 
-[{"id":1,"first_name":"Krystyna","last_name":"Halgarth","email":"khalgarth0@shop-pro.jp","gender":"Female"},
-{"id":2,"first_name":"Melisandra","last_name":"Cahey","email":"mcahey1@washington.edu","gender":"Genderqueer"},
-{"id":3,"first_name":"Jeth","last_name":"Gabbidon","email":"jgabbidon2@cdbaby.com","gender":"Genderfluid"},
-{"id":4,"first_name":"Becky","last_name":"Cussins","email":"bcussins3@hibu.com","gender":"Male"},
-{"id":5,"first_name":"Janie","last_name":"Rowling","email":"jrowling4@youku.com","gender":"Genderfluid"},
-{"id":6,"first_name":"Jecho","last_name":"Crummey","email":"jcrummey5@state.gov","gender":"Male"},
-{"id":7,"first_name":"Nydia","last_name":"Beevor","email":"nbeevor6@google.cn","gender":"Non-binary"},
-{"id":8,"first_name":"Blondell","last_name":"Arnecke","email":"barnecke7@smh.com.au","gender":"Male"},
-{"id":9,"first_name":"Trixie","last_name":"Bathersby","email":"tbathersby8@unc.edu","gender":"Female"},
-{"id":10,"first_name":"Gabby","last_name":"Davern","email":"gdavern9@etsy.com","gender":"Non-binary"},
-{"id":11,"first_name":"Vivianna","last_name":"Beglin","email":"vbeglina@ibm.com","gender":"Agender"},
-{"id":12,"first_name":"Kerri","last_name":"Kehoe","email":"kkehoeb@hibu.com","gender":"Female"},
-{"id":13,"first_name":"Esmeralda","last_name":"Madre","email":"emadrec@bloglines.com","gender":"Bigender"},
-{"id":14,"first_name":"Shurlocke","last_name":"Fonzone","email":"sfonzoned@unesco.org","gender":"Genderqueer"},
-{"id":15,"first_name":"Inez","last_name":"MacAree","email":"imacareee@altervista.org","gender":"Agender"},
-{"id":16,"first_name":"Ivett","last_name":"Heap","email":"iheapf@hatena.ne.jp","gender":"Genderqueer"},
-{"id":17,"first_name":"Tonye","last_name":"Sobieski","email":"tsobieskig@mac.com","gender":"Genderqueer"},
-{"id":18,"first_name":"Frederica","last_name":"Drake","email":"fdrakeh@google.ru","gender":"Male"},
-{"id":19,"first_name":"Beau","last_name":"Witts","email":"bwittsi@themeforest.net","gender":"Bigender"},
-{"id":20,"first_name":"Rodi","last_name":"Ebbin","email":"rebbinj@webmd.com","gender":"Agender"},
-{"id":21,"first_name":"Mac","last_name":"Macallam","email":"mmacallamk@cargocollective.com","gender":"Female"},
-{"id":22,"first_name":"Kippie","last_name":"Hurlestone","email":"khurlestonel@microsoft.com","gender":"Agender"},
-{"id":23,"first_name":"Rubia","last_name":"Gerrell","email":"rgerrellm@samsung.com","gender":"Genderfluid"},
-{"id":24,"first_name":"Lucila","last_name":"Treker","email":"ltrekern@springer.com","gender":"Polygender"},
-{"id":25,"first_name":"Aldous","last_name":"Killen","email":"akilleno@google.com.au","gender":"Male"},
-{"id":26,"first_name":"Matilda","last_name":"Pressman","email":"mpressmanp@taobao.com","gender":"Non-binary"},
-{"id":27,"first_name":"Heddi","last_name":"Mustard","email":"hmustardq@php.net","gender":"Genderfluid"},
-{"id":28,"first_name":"Morgan","last_name":"Robiot","email":"mrobiotr@discuz.net","gender":"Bigender"},
-{"id":29,"first_name":"Malynda","last_name":"Balducci","email":"mbalduccis@umn.edu","gender":"Non-binary"},
-{"id":30,"first_name":"Carver","last_name":"Heppner","email":"cheppnert@so-net.ne.jp","gender":"Agender"},
-{"id":31,"first_name":"Dottie","last_name":"Dametti","email":"ddamettiu@disqus.com","gender":"Female"},
-{"id":32,"first_name":"Ramonda","last_name":"Simonazzi","email":"rsimonazziv@army.mil","gender":"Non-binary"},
-{"id":33,"first_name":"Fanny","last_name":"Baroche","email":"fbarochew@odnoklassniki.ru","gender":"Agender"},
-{"id":34,"first_name":"Lori","last_name":"Gumbley","email":"lgumbleyx@creativecommons.org","gender":"Non-binary"},
-{"id":35,"first_name":"Lacy","last_name":"Reynard","email":"lreynardy@imageshack.us","gender":"Non-binary"},
-{"id":36,"first_name":"Alfi","last_name":"Elverston","email":"aelverstonz@fc2.com","gender":"Bigender"},
-{"id":37,"first_name":"Rudy","last_name":"Lovekin","email":"rlovekin10@ucsd.edu","gender":"Male"},
-{"id":38,"first_name":"Prinz","last_name":"Harber","email":"pharber11@ox.ac.uk","gender":"Male"},
-{"id":39,"first_name":"Noland","last_name":"Halley","email":"nhalley12@yandex.ru","gender":"Female"},
-{"id":40,"first_name":"Brandi","last_name":"Morcombe","email":"bmorcombe13@tiny.cc","gender":"Genderfluid"},
-{"id":41,"first_name":"Drusilla","last_name":"Claypool","email":"dclaypool14@e-recht24.de","gender":"Non-binary"},
-{"id":42,"first_name":"Dinnie","last_name":"Shama","email":"dshama15@chicagotribune.com","gender":"Non-binary"},
-{"id":43,"first_name":"Desiri","last_name":"Gavini","email":"dgavini16@intel.com","gender":"Non-binary"},
-{"id":44,"first_name":"Trefor","last_name":"Dottrell","email":"tdottrell17@illinois.edu","gender":"Bigender"},
-{"id":45,"first_name":"Barthel","last_name":"Heys","email":"bheys18@trellian.com","gender":"Non-binary"},
-{"id":46,"first_name":"Ambrosio","last_name":"Stevani","email":"astevani19@skype.com","gender":"Male"},
-{"id":47,"first_name":"Bogey","last_name":"Pamment","email":"bpamment1a@nifty.com","gender":"Female"},
-{"id":48,"first_name":"Alyssa","last_name":"Rudgley","email":"arudgley1b@adobe.com","gender":"Non-binary"},
-{"id":49,"first_name":"Brianne","last_name":"Cowden","email":"bcowden1c@123-reg.co.uk","gender":"Genderfluid"},
-{"id":50,"first_name":"Lida","last_name":"Morling","email":"lmorling1d@goo.gl","gender":"Genderqueer"}]
+let month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October","November", "December"];
+let day = [32, 29, 32, 31, 32, 31, 31, 32, 31, 32, 31, 32];
+
+let title = document.getElementById("ititle");
+
+window.onload = function()
+{    
+    let months = prompt("Month [1-12]",);
+    let week = prompt("Start Day [1-7]",);
+
+    if(months >= 13 || week >= 8)
+    {
+        title.innerHTML = "Invalid Input!";
+    }
+    else
+    {
+        title.innerHTML = month[months-1];
+        display(months, week);
+    }
+    
+}
+
+let table = document.getElementById("idays");
+
+
+function display(months, week)
+{
+    var row; var col = 0;
+    
+    for(i = 1; i < day[months-1]; i++)
+    {
+        if(i == 1)
+        {           
+            
+
+            if(week == 1)
+            {
+                row = table.insertRow(-1);
+            }
+            else if(week == 2)
+            {
+                row = table.insertRow(-1);
+                row.insertCell(col++);                
+            }
+            else if(week == 3)
+            {
+                row = table.insertRow(-1);
+                row.insertCell(col++); 
+                row.insertCell(col++);
+            }
+            else if(week == 4)
+            {
+                row = table.insertRow(-1);
+                row.insertCell(col++); 
+                row.insertCell(col++);
+                row.insertCell(col++);
+            }
+            else if(week == 5)
+            {
+                row = table.insertRow(-1);
+                row.insertCell(col++); 
+                row.insertCell(col++);
+                row.insertCell(col++);
+                row.insertCell(col++);
+            }
+            else if(week == 6)
+            {
+                row = table.insertRow(-1);
+                row.insertCell(col++); 
+                row.insertCell(col++);
+                row.insertCell(col++);
+                row.insertCell(col++);
+                row.insertCell(col++);
+            }
+            else if(week == 7)
+            {
+                row = table.insertRow(-1);
+                row.insertCell(col++); 
+                row.insertCell(col++);
+                row.insertCell(col++);
+                row.insertCell(col++);
+                row.insertCell(col++);
+                row.insertCell(col++);
+            }
+            
+        }
+        if(col == 7)
+        {
+            row = table.insertRow(-1);
+            col = 0;
+        }    
+
+        val = row.insertCell(col++);
+        val.innerHTML = i;        
+    }
+}

@@ -2,56 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Document Object</title>
 </head>
 <body>
-    <table id="tbldata" style="border: black 1px solid;">
-        <thead style="border: black 1px solid;">
-            <tr>
-                <th>ID</th>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Email</th>
-                <th>Gender</th>
-            </tr>
-
-        </thead>
-        <tbody>
-
-        </tbody>
-
+    <div class="ititle" id="ititle"></div>
+    <table border="1" id="idays">        
+        <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>            
+        </tr>        
+        
     </table>
-    <script src="js/data.js"></script>
-    <script>
-        let month = prompt("Month (1-12)");
-        let startday = prompt("Start Day (1-7)");
-        // let tbody = document.getElementById("tbldata").getElementsByTagName("tbody")[0];
-        // for(row of data)
-        // {
-        //     let newRow = tbody.insertRow();
 
-        //     let cellid = newRow.insertCell();
-        //     cellid.setAttribute("style","border: 1px solid red;");
-        //     cellid.innerText = row.id;
-
-        //     let cellFname = newRow.insertCell();
-        //     cellFname.setAttribute("style","border: 1px solid blue;");
-        //     cellFname.innerText = row.first_name;
-        // }
-        // let dname = prompt("Name","Dodong Laboriki");
-        // let dnumber = prompt("Number (1-100)","30");
-        // console.log(dnumber);
-        // let honetag = document.getElementsByName('hid1');
-        // honetag[0].innerHTML = dname;
-        // honetag[1].innerHTML = dnumber;
-        // for(index = 1; index <= parseInt(dnumber); index ++)
-        // {
-        //     let para = document.createElement("p");
-        //     para.innerHTML = index;
-        //     document.body.appendChild(para);
-        // }
-    </script>
+    <script src="/js/data.js"></script>
+    
 </body>
 </html>
